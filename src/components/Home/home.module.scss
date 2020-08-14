@@ -1,0 +1,19 @@
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 4;
+    .clickrBtn{
+        appearance: none;
+        padding: 15px 50px;
+        border: 3px solid #61dafb;
+        border-radius: 30px;
+        color: #333333;
+        font-size: 22px;
+        font-weight: 500;
+        &:focus{
+            outline: none;
+        }
+    }
+}
